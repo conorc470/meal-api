@@ -3,10 +3,15 @@
 }
 
 body {
-  background: #2d2013;
-  color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(255 245 228);
+  color: #000;
+  font-family: Helvetica, sans-serif;
   margin: 0;
+}
+
+h1 {
+	font-weight: 300;
+	color: #fff;
 }
 
 .container {
@@ -17,6 +22,18 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.top-container {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: black;
+	color: #fff;
 }
 
 .flex {
@@ -88,27 +105,35 @@ input[type='text'] {
   opacity: 0;
 }
 
+.main {
+	text-align: left;
+}
+
 .meal:hover .meal-info {
   opacity: 1;
 }
 
 .single-meal {
-  margin: 30px auto;
-  width: 70%;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.single-meal h2 {
+  text-align: center;
 }
 
 .single-meal img {
   width: 300px;
-  margin: 15px;
-  border: 4px #fff solid;
-  border-radius: 2px;
+  border-radius: 4px;
+	text-align: center;
 }
 
 .single-meal-info {
-  margin: 20px;
-  padding: 10px;
-  border: 2px #e09850 dashed;
+  margin: 20px 0;
+  padding: 10px 30px;
   border-radius: 5px;
+	text-align: left;
+	background: #ffe8c0;
 }
 
 .single-meal p {
